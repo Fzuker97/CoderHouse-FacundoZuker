@@ -1,0 +1,32 @@
+html{
+    background: url(/fondo.png), -webkit-gradient(linear, right top, left top, from(#2196f3), to (#009688));
+    background: url(fondo.png),
+    linear-gradient(to left, #2196f3, #009688);
+    min-height: 1000px;
+    background-color: #2196f3;
+    
+}
+
+.header{
+    text-align: center;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    border-style: double;
+}
+label{
+    font-size: 25px;
+}
+.btn{
+    padding-left: 30px;
+    padding-top: 8px;
+}
