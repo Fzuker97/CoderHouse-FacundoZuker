@@ -1,0 +1,61 @@
+html{
+    background: url(/fondo.png), -webkit-gradient(linear, right top, left top, from(#2196f3), to (#009688));
+    background: url(fondo.png),
+    linear-gradient(to left, #2196f3, #009688);
+    min-height: 1000px;
+    background-color: #2196f3;
+    
+}
+
+.header h1{
+    text-align: center;
+    background-color: white;
+    border-style: double;
+    border-radius: 20px;
+    margin-right: 450px;
+    margin-left: 450px;
+}
+
+.titulo h2{
+    text-align: center;
+    background-color: white;
+    border-style: double;
+    border-radius: 20px;
+    margin-right: 450px;
+    margin-left: 450px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+}
+.contenedor button{
+    border-radius: 20px;
+    padding: 10px;
+    border-style: double;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.btn button{
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.guia{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: -20px;
+    padding-top: 40px;
+}
+.guia p{
+    display: inline;
+    background-color: white;
+    border-radius: 20px;
+    border-style: double;
+}

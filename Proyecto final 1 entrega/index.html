@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Entregable 1</title>
+<header class="header">
+    <h1>Simulador de Compra</h1>
+</header>
+<body>
+    <div class="titulo">
+        <h2>Para agregar productos haga click en cada boton y introduzca el id proporcionado abajo segun su preferencia</h2>
+    </div>
+    <div class="guia">
+        <p>&nbsp; 1) AMD // 2) Intel &nbsp; </p>
+        <p>&nbsp;  3) Generica // 4) Dedicada &nbsp; </p>
+        <p>&nbsp;  5) 8GB // 6) 16GB &nbsp; </p>
+        <p>&nbsp;  7) Integrada // 8) Dedicada &nbsp; </p>
+        <p>&nbsp;  9) Generica // 10) 80-PLUS &nbsp; </p>
+    </div>
+    <div class="contenedor">
+       <button style="cursor: pointer;" onclick="agregarAlCarrito()">CPU</button>
+       <button style="cursor: pointer;" onclick="agregarAlCarrito()">Motherboard</button>
+       <button style="cursor: pointer;" onclick="agregarAlCarrito()">RAM</button>
+       <button style="cursor: pointer;" onclick="agregarAlCarrito()">GPU</button>
+       <button style="cursor: pointer;" onclick="agregarAlCarrito()">Fuente de poder</button>
+    </div>
+    <div class="btn">
+        <button style="cursor: pointer;" onclick="mostrarCarrito()">Mi Computadora</button>
+    </div>
+    <script src="/main.js"></script>
+</body>
+</html>
