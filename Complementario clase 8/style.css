@@ -1,0 +1,156 @@
+html{
+    background: url(/fondo.png), -webkit-gradient(linear, right top, left top, from(#2196f3), to (#009688));
+    background: url(fondo.png),
+    linear-gradient(to left, #2196f3, #009688);
+    min-height: 1000px;
+    background-color: #2196f3;
+    
+}
+
+.header h1{
+    text-align: center;
+    background-color: white;
+    border-style: double;
+    border-radius: 20px;
+    margin-right: 450px;
+    margin-left: 450px;
+}
+
+.titulo h2{
+    text-align: center;
+    background-color: white;
+    border-style: double;
+    border-radius: 20px;
+    margin-right: 450px;
+    margin-left: 450px;
+}
+
+img{
+    width: 180px;
+    height: 150px;
+    border-radius: 20px;
+}
+.contenedor-cpu{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+.contenedor-mb{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+.contenedor-ram{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+.contenedor-gpu{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+.contenedor-fuente{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+h3{
+    background-color: white;
+    border-radius: 20px;
+    border-style: double;
+    margin-bottom: -90px;
+}
+
+.titulo-cpu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.titulo-mb{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+.titulo-ram{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.titulo-gpu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.titulo-fuente{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+button{
+    border-style: double;
+    border-radius: 20px;
+}
+.btn-cpu{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.btn-mb{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.btn-ram{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.btn-gpu{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.btn-fuente{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.btn-mipc{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    margin: 50px;
+}
+.btn-mipc button{
+    font-size: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.footer p{
+    color: white;
+    font-size: 17px;
+}
+.contenedor-ul{
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+}
+.elemento {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+  }

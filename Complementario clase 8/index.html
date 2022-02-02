@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Entregable 1</title>
+<header class="header">
+    <h1>Zuker-PC</h1>
+</header>
+<body>
+    <div class="titulo">
+        <h2>Segui los pasos para armar tu PC soñada</h2>
+    </div>
+    <div class="titulo-cpu">
+        <h3>&nbsp; AMD5 &nbsp;</h3>
+        <h3>&nbsp; AMD7 &nbsp;</h3>
+        <h3>&nbsp; Intel5 &nbsp;</h3>
+        <h3>&nbsp; Intel7 &nbsp;</h3>
+    </div>
+    <div class="contenedor-cpu">
+        <img src="/img/amd5.png" alt="amd5">
+        <img src="/img/amd7.png" alt="amd7">
+        <img src="/img/intel5.png" alt="intel5">
+        <img src="/img/intel7.png" alt="intel7">
+    </div>
+    <div class="btn-cpu">
+        <button style="cursor: pointer;" onclick="agregarAlCarrito()">Agregar CPU</button>
+    </div>
+    <div class="titulo-mb">
+        <h3>&nbsp; h510m &nbsp;</h3>
+        <h3>&nbsp; b450 &nbsp;</h3>
+    </div>
+    <div class="contenedor-mb">
+        <img src="/img/MB-h510m.png" alt="h510">
+        <img src="/img/MB-b450.png" alt="b450">
+    </div>
+    <div class="btn-mb">
+        <button style="cursor: pointer;" onclick="agregarAlCarrito()">Agregar Motherboard</button>
+    </div>
+    <div class="titulo-ram">
+        <h3>&nbsp; 8GB &nbsp;</h3>
+        <h3>&nbsp; 16GB &nbsp;</h3>
+        <h3>&nbsp; 32GB &nbsp;</h3>
+    </div>
+    <div class="contenedor-ram">
+        <img src="/img/ram8gb.png" alt="8gb">
+        <img src="/img/ram16gb.png" alt="16gb">
+        <img src="/img/ram32gb.png" alt="32gb">
+    </div>
+    <div class="btn-ram">
+        <button style="cursor: pointer;" onclick="agregarAlCarrito()">Agregar Ram</button>
+    </div>
+    <div class="titulo-gpu">
+        <h3>&nbsp; GTX1050 &nbsp;</h3>
+        <h3>&nbsp; RX580 &nbsp;</h3>
+        <h3>&nbsp; RTX3060&nbsp;</h3>
+    </div>
+    <div class="contenedor-gpu">
+        <img src="/img/gtx1050.png" alt="gtx1050">
+        <img src="/img/rx580.png" alt="rx580">
+        <img src="/img/rtx3060.png" alt="rtx3060">
+    </div>
+    <div class="btn-gpu">
+        <button style="cursor: pointer;" onclick="agregarAlCarrito()">Agregar GPU</button>
+    </div>
+    <div class="titulo-fuente">
+        <h3>&nbsp; 600W &nbsp;</h3>
+        <h3>&nbsp; 850W &nbsp;</h3>
+        <h3>&nbsp; 1000W &nbsp;</h3>
+    </div>
+    <div class="contenedor-fuente">
+        <img src="/img/fuente600w.png" alt="600w">
+        <img src="/img/fuente850w.png" alt="850w">
+        <img src="/img/fuente1000w.png" alt="1000w">
+    </div>
+    <div class="btn-fuente">
+        <button style="cursor: pointer;" onclick="agregarAlCarrito()">Agregar Fuente de poder</button>
+    </div>
+    <div class="btn-mipc">
+        <button style="cursor: pointer;" onclick="mostrarCarrito()">Cuanto cuesta mi pc?</button>
+        <button style="cursor: pointer;" onclick="mostrarDetalle()">Mostrar carrito</button>
+    </div>
+    <div class="contenedor-ul">
+        <div class="elemento">
+          <ul id="lista">
+
+          </ul>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>@Copyright Facundo Zuker 2022</p>
+    </footer>
+    <script src="/main.js"></script>
+</body>
+</html>
