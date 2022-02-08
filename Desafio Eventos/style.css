@@ -1,0 +1,56 @@
+html{
+    background: url(/fondo.png), -webkit-gradient(linear, right top, left top, from(#2196f3), to (#009688));
+    background: url(fondo.png),
+    linear-gradient(to left, #2196f3, #009688);
+    min-height: 1000px;
+    background-color: #2196f3;
+    
+}
+
+.header{
+    text-align: center;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border-style: double;
+}
+label{
+    font-size: 25px;
+}
+.btn{
+    padding-left: 30px;
+    padding-top: 8px;
+}
+
+.tab{
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    border-style: double;
+    margin: 0 auto;
+    width: 500px;
+}
+
+thead{
+    border: #173441 2px solid;
+    font-weight: bold;
+    border-radius: 20px;
+}
+tr{
+    border: #173441 2px solid;
+    border-radius: 20px;
+}
+td{
+    border: #173441 2px solid;    
+    border-radius: 20px;
+}
