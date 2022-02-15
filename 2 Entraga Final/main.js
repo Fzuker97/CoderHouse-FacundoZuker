@@ -82,13 +82,8 @@ function actualizarCarrito(){
 }
 
 function recuperar(){
-    let recuperarLs = JSON.parse(localStorage.getItem('carrito'))
-    console.log(recuperarLs);
-    if(recuperarLs){
-        recuperarLs.forEach(element => {
-            agregarAlCarrito(element.id)
-        });
-    }
+    let recuperarLs = JSON.parse(localStorage.getItem('carrito')) || []
+    
 }
 
 recuperar()
