@@ -11,12 +11,11 @@ const precioTotal = document.getElementById('precioTotal');
 fetch('stock.json')
     .then(Response => Response.json())
     .then((data) =>{
-        console.log(typeof data);
-        mostrarProductos(data);
-    })
-    .then((data) =>{
-        console.log(typeof data);
-        data=>{stock=data};
+        data.forEach(item =>{
+            stock.push(item)
+        })
+        mostrarProductos(stock);
+        recuperar()
     })
     .catch((error) => console.log(error));
 
