@@ -1,0 +1,218 @@
+[
+    {
+      "id": 1,
+      "nombre": "110 miel",
+      "descripcion":"Producto de primera calidad",
+      "tipo": "sandalia",
+      "precio": 4000,
+      "img": "/img/110-miel.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 2,
+      "nombre": "111 anaconda suela",
+      "descripcion":"Producto de primera calidad",
+      "tipo": "sandalia",
+      "precio": 4000,
+      "img": "/img/111-anaconda-suela.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 3,
+      "nombre": "111 leopardo",
+      "descripcion":"Producto de primera calidad",
+      "tipo": "sandalia",
+      "precio": 4000,
+      "img": "/img/111-leopardo.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 4,
+      "nombre": "113 peltre leopardo",
+      "descripcion":"Producto de primera calidad",
+      "tipo": "sandalia",
+      "precio": 4000,
+      "img": "/img/113-peltre-leopardo.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 5,
+      "nombre": "116 anaconda miel caramelo",
+      "descripcion":"Producto de primera calidad",
+      "tipo": "sandalia",
+      "precio": 5600,
+      "img": "/img/116-anaconda-miel-caramel.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 6,
+      "nombre": "116 leopardo",
+      "descripcion":"Producto de primera calidad",
+      "tipo": "sandalia",
+      "precio": 5600,
+      "img": "/img/116-leopardo.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 7,
+      "nombre": "116 nero",
+      "descripcion":"Producto de primera calidad",
+      "tipo": "sandalia",
+      "precio": 5600,
+      "img": "/img/116-nero.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 8,
+      "nombre": "118 anaconda negro",
+      "descripcion":"Producto de primera calidad",
+      "tipo": "sandalia",
+      "precio": 5600,
+      "img": "/img/118-anaconda-negro.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 9,
+      "nombre": "123 manteca",
+      "descripcion":"Producto de primera calidad",
+      "tipo": "sandalia",
+      "precio": 5600,
+      "img": "/img/123-manteca.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 10,
+      "nombre": "123 negro",
+      "descripcion":"Producto de primera calidad",
+      "tipo": "sandalia",
+      "precio": 5600,
+      "img": "/img/123-negro.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 11,
+      "nombre": "127 rojo",
+      "descripcion":"Producto de primera calidad",
+      "tipo": "zapa",
+      "precio": 5600,
+      "img": "/img/127-rojo.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 12,
+      "nombre": "128 negro",
+      "descripcion":"Producto de primera calidad",
+      "tipo": "zapa",
+      "precio": 5600,
+      "img": "/img/128-negro.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 13,
+      "nombre": "128 rojo",
+      "descripcion":"Producto de primera calidad",
+      "tipo": "zapa",
+      "precio": 5600,
+      "img": "/img/128-rojo.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 14,
+      "nombre": "134 negro",
+      "descripcion":"Producto de primera calidad",
+      "tipo": "zapa",
+      "precio": 4000,
+      "img": "/img/134-negro.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 15,
+      "nombre": "136 Celeste",
+      "descripcion":"Producto de primera calidad",
+      "tipo": "zapa",
+      "precio": 13400,
+      "img": "/img/136-Celeste.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 16,
+      "nombre": "136 Negro",
+      "descripcion":"Producto de primera calidad",
+      "tipo": "zapa",
+      "precio": 13400,
+      "img": "/img/136-Negro.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 17,
+      "nombre": "148 negro charol quebrado",
+      "descripcion":"Producto de primera calidad",
+      "tipo": "botas",
+      "precio": 14600,
+      "img": "/img/148-negro-charol-quebrado.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 18,
+      "nombre": "530 Charol Blanco",
+      "descripcion":"Producto de primera calidad",
+      "tipo": "sandalia",
+      "precio": 3200,
+      "img": "/img/530-Charol-Blanco.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 19,
+      "nombre": "532 Caramelo",
+      "descripcion":"Producto de primera calidad",
+      "tipo": "sandalia",
+      "precio": 4000,
+      "img": "/img/532-Caramel.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 20,
+      "nombre": "532 Leopardo",
+      "descripcion":"Producto de primera calidad",
+      "tipo": "sandalia",
+      "precio": 4000,
+      "img": "/img/532-Leopardo.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 21,
+      "nombre": "533 Caramelo",
+      "descripcion":"Producto de primera calidad",
+      "tipo": "sandalia",
+      "precio": 4000,
+      "img": "/img/533-Caramel.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 22,
+      "nombre": "601 negro con elastico",
+      "descripcion":"Producto de primera calidad",
+      "tipo": "botas",
+      "precio": 3000,
+      "img": "/img/601-negro-con-elastico.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 23,
+      "nombre": "602 anaconda suela",
+      "descripcion":"Producto de primera calidad",
+      "tipo": "botas",
+      "precio": 7800,
+      "img": "/img/602-anaconda-suela.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 24,
+      "nombre": "10 FucsiaBlanco",
+      "descripcion":"Producto de primera calidad",
+      "tipo": "sandalia",
+      "precio": 4000,
+      "img": "/img/10-FucsiaBlanco.jpg",
+      "cantidad": 1
+    }
+  ]

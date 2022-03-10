@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="/CSS/Style.css">
+    <title>Zaccaro Woman</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>Zaccaro Woman</h1>
+            <div class="container-input">
+                <input type="text" id="search" class="input" placeholder="Buscar producto">
+              </div>
+            <button id="boton-carrito"><img src="https://img.icons8.com/metro/50/000000/add-shopping-cart.png"/><span id="contadorCarrito">0</span></button>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="history">
+                <h2>En Zaccaro nos caracterizamos por traer zapatos de primera calidad, 100% cuero.</h2>
+                <h2>Y como a vos mas te gusta, siempre a la moda.</h2>
+                <h2>Muchas Argentinas ya tienen sus Zaccaro... Y vos que esperas?</h2>
+            </div>
+        </section>
+        
+        <div class="title">
+            <h1>Productos</h1>
+        </div>
+
+        <div class="seleccion">
+            <select id="selecTipo">
+                <option value="all">Todos</option>
+                <option value="sandalia">Sandalias</option>
+                <option value="botas">Botas</option>
+                <option value="zapa">Zapatillas/Zapatos</option>
+            </select>
+        </div>
+
+        <div id="contenedor-productos">
+
+        </div>
+
+        <div class="modal-contenedor">
+            <div class="modal-carrito">
+                <h3>Carrito</h3>
+                <button id="carritoCerrar"></button>
+                <div id="carrito-contenedor">
+    
+                </div>
+                <p class="precioProducto">Precio total: $ <span id="precioTotal">0</span></p>
+                <button id="send" class="checkout" onclick="checkout()">CheckOut</button>
+            </div>
+    
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <h3>Copyright © 2022 - Facundo Zuker</h3>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="/JS/modal.js"></script>
+    <script src="/JS/main.js"></script>
+</body>
+</html>

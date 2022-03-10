@@ -1,0 +1,292 @@
+/*HEADER*/
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.container-input{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.input{
+    width: 250% !important;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+#boton-carrito{
+    width: 95px;
+    height: 95px;
+    padding-top: 20px;
+    border-radius: 20px;
+    
+}
+
+#boton-carrito:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(225, 76, 65);
+}
+
+#boton-carrito span{
+    font-size: 30px;
+}
+
+.header h1{
+    font-size: 60px;
+    font-family: 'Great Vibes', cursive;
+    font-style: italic;
+}
+
+/*BANNER*/
+
+.banner{
+    background-image: url(/img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+.history{
+    text-align: center;
+}
+
+.history h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    padding-top: 60px;
+}
+
+/*PRODUCTOS*/
+
+.title h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Great Vibes', cursive;
+    font-style: italic;
+    text-decoration: underline;
+    padding-top: 20px;
+}
+.seleccion{
+    text-align: center;
+}
+
+#selecTipo{
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+}
+
+select{
+    display: inline;
+    text-align: center;
+    border: 1px solid lightpink;
+}
+main img{
+    width: 200px;
+    height: 220px;
+    border-radius: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn img{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.btn img:hover{
+    cursor: pointer;
+}
+
+#contenedor-productos {
+    max-width: 1000px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+p {
+    line-height: 1.8;
+}
+.producto {
+    max-width: 30%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 6px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.card-title{
+    color: black !important;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Great Vibes', cursive;
+}
+.card-content p{
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+    font-size: 22px;
+}
+
+.contenedor-ul{
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+}
+.elemento {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+  }
+
+.contenedor-btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contenedor-btn button{
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.btn{
+    padding: 3px;
+    border-radius: 20px;    
+}
+
+/*MODAL*/
+
+.modal-contenedor {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal-active {
+    opacity: 1;
+    visibility: visible;
+    z-index: 5;
+}
+
+.modal-carrito {
+    position: relative;
+    background-color: white;
+    min-width: 500px;
+    padding: 20px;
+    margin-top: -100%;
+    transition: all .5s;
+}
+
+.modal-active .modal-carrito {
+    margin-top: 0;
+}
+
+.modal-carrito h3 {
+    color: rgb(225, 76, 65);
+    padding-bottom: 5px;
+}
+.modal-carrito #carritoCerrar {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+    color: rgb(225, 76, 65);
+    border: none;
+    background-color: white;
+}
+.modal-carrito #carritoCerrar:hover {
+    cursor: pointer;
+}
+.modal-carrito #carritoCerrar:focus {
+    outline: none;
+}
+.modal-carrito .precioProducto {
+    padding-top: 10px;
+    
+}
+.card .card-image .card-title{
+    color :rgb(225, 76, 65);
+    position:unset
+}
+
+.productoEnCarrito {
+    border-left: 5px solid lightblue;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    margin: 5px 0;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.productoEnCarrito:hover {
+    border-left: 5px solid rgb(225, 76, 65);
+}
+
+.boton-eliminar {
+    background-color: white;
+    color: red;
+    border: none;
+    font-size: 20px;
+}
+
+.boton-eliminar:hover {
+    cursor: pointer;
+}
+.boton-eliminar:focus {
+    outline: none;
+}
+
+.boton-eliminar img{
+    width: 30px;
+    height: 30px;
+}
+
+.checkout{
+    width: 150px;
+    height: 40px;
+    background-color: gray;
+    color: white;
+    border-radius: 20px;
+    font-size: 35px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.checkout:hover{
+    cursor: pointer;
+}
+
+.footer{
+    text-align: center;
+    background-color: gray;
+    color: white;
+    font-size: 13px;
+}
+
+a img{
+    width: 50px;
+    height: 50px;
+}
